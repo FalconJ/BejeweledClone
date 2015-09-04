@@ -1,0 +1,105 @@
+﻿Build started 05/05/2015 11:25:47 p. m..
+     1>Project "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Bejeweled_vc12.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Performing Custom Build Tools
+         msg: option 'default-buildenv' overridden by command line
+         C:\Marmalade\7.7\s3e\makefile_builder\mkb.py --buildenv=VC12 g:/Desktop/eli/Bejeweled/Bejeweled.mkb --default-buildenv=vc12x --msvc-project
+         Building project: g:/Desktop/eli/Bejeweled/Bejeweled.mkb
+     1>g:/Desktop/eli/Bejeweled/Bejeweled.mkb(6): warning : the specified module_path does not exist: 'g:/Desktop/eli/modules'
+         Done, with 1 warnings.
+         done
+       ClCompile:
+         C:\Marmalade\7.7\s3e\bin\CL.exe /c /Ic:/marmalade/7.7/modules/iw2d/h /Ic:/marmalade/7.7/modules/iwgx/h /Ic:/marmalade/7.7/modules/iwgl/h /Ic:/marmalade/7.7/modules/iwutil/h /Ic:/marmalade/7.7/modules/third_party/libjpeg/h /Ic:/marmalade/7.7/modules/third_party/zlib/h /Ic:/marmalade/7.7/modules/third_party/libpng/h /Ic:/marmalade/7.7/modules/iwgeom/h /Ic:/marmalade/7.7/modules/iwresmanager/h /Ic:/marmalade/7.7/extensions/pvrtextool/h /Ic:/marmalade/7.7/modules/iwgxfont/h /Ic:/marmalade/7.7/modules/third_party/tiniconv/source /Ic:/marmalade/7.7/modules/iw2dscenegraph/h /Ic:/marmalade/7.7/modules/iw2dscenegraphcore/h /Ic:/marmalade/7.7/modules/iwtween/h /Ig:/desktop/eli/bejeweled/modules/soundengine/h /Ig:/desktop/eli/bejeweled/modules/soundengine/source /Ic:/marmalade/7.7/s3e/h /Ic:/marmalade/7.7/s3e/h/ext /Ic:/marmalade/7.7/s3e/h/std /Ic:/marmalade/7.7/s3e/h/std/c++ /Ic:/marmalade/7.7/s3e/h/ext_legacy /Ic:/marmalade/7.7/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_Bejeweled_vc12_x86\\" /Fd"Debug_Bejeweled_vc12_x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\temp_defines_debug.h" c:\marmalade\7.7\modules\iw2dscenegraph\source\Iw2DSceneGraph.cpp c:\marmalade\7.7\modules\iw2dscenegraphcore\source\Iw2DSceneGraphCore.cpp ..\modules\soundengine\source\IwResHandlerWAV.cpp ..\modules\soundengine\source\IwSoundADPCM.cpp ..\modules\soundengine\source\IwSoundData.cpp ..\modules\soundengine\source\IwSoundGroup.cpp ..\modules\soundengine\source\IwSoundInst.cpp ..\modules\soundengine\source\IwSoundManager.cpp ..\modules\soundengine\source\IwSoundPCM.cpp ..\modules\soundengine\source\IwSoundParams.cpp ..\modules\soundengine\source\IwSoundSpec.cpp ..\modules\soundengine\source\IwSoundWAV.cpp c:\marmalade\7.7\modules\iwtween\source\IwTween.cpp c:\marmalade\7.7\extensions\pvrtextool\interface\PVRTexTool_interface.cpp ..\source\audio.cpp ..\source\explosion.cpp ..\source\game.cpp ..\source\gem.cpp ..\source\grid.cpp ..\source\input.cpp ..\source\main.cpp ..\source\mainMenu.cpp ..\source\pauseMenu.cpp ..\source\resources.cpp ..\source\scene.cpp ..\source\timer.cpp
+         Iw2DSceneGraph.cpp
+         Iw2DSceneGraphCore.cpp
+         IwResHandlerWAV.cpp
+         IwSoundADPCM.cpp
+         IwSoundData.cpp
+         IwSoundGroup.cpp
+         IwSoundInst.cpp
+         IwSoundManager.cpp
+         IwSoundPCM.cpp
+         IwSoundParams.cpp
+         IwSoundSpec.cpp
+         IwSoundWAV.cpp
+         IwTween.cpp
+         PVRTexTool_interface.cpp
+         audio.cpp
+         explosion.cpp
+     1>g:\desktop\eli\bejeweled\source\grid.h(8): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\explosion.cpp)
+                 g:\desktop\eli\bejeweled\source\resources.h(4) : see previous definition of 'MAX_GEM_TYPES'
+         game.cpp
+         gem.cpp
+     1>g:\desktop\eli\bejeweled\source\grid.h(8): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\game.cpp)
+                 g:\desktop\eli\bejeweled\source\gem.h(9) : see previous definition of 'MAX_GEM_TYPES'
+     1>g:\desktop\eli\bejeweled\source\resources.h(4): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\game.cpp)
+                 g:\desktop\eli\bejeweled\source\grid.h(8) : see previous definition of 'MAX_GEM_TYPES'
+     1>g:\desktop\eli\bejeweled\source\grid.h(8): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\gem.cpp)
+                 g:\desktop\eli\bejeweled\source\gem.h(9) : see previous definition of 'MAX_GEM_TYPES'
+     1>g:\desktop\eli\bejeweled\source\resources.h(4): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\gem.cpp)
+                 g:\desktop\eli\bejeweled\source\grid.h(8) : see previous definition of 'MAX_GEM_TYPES'
+         grid.cpp
+         input.cpp
+         main.cpp
+     1>g:\desktop\eli\bejeweled\source\grid.h(8): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\grid.cpp)
+                 g:\desktop\eli\bejeweled\source\gem.h(9) : see previous definition of 'MAX_GEM_TYPES'
+     1>g:\desktop\eli\bejeweled\source\resources.h(4): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\grid.cpp)
+                 g:\desktop\eli\bejeweled\source\grid.h(8) : see previous definition of 'MAX_GEM_TYPES'
+     1>g:\desktop\eli\bejeweled\source\grid.h(8): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\main.cpp)
+                 g:\desktop\eli\bejeweled\source\gem.h(9) : see previous definition of 'MAX_GEM_TYPES'
+     1>g:\desktop\eli\bejeweled\source\resources.h(4): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\main.cpp)
+                 g:\desktop\eli\bejeweled\source\grid.h(8) : see previous definition of 'MAX_GEM_TYPES'
+         mainMenu.cpp
+         pauseMenu.cpp
+     1>g:\desktop\eli\bejeweled\source\grid.h(8): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\mainMenu.cpp)
+                 g:\desktop\eli\bejeweled\source\resources.h(4) : see previous definition of 'MAX_GEM_TYPES'
+     1>g:\desktop\eli\bejeweled\source\grid.h(8): warning C4005: 'MAX_GEM_TYPES' : macro redefinition (..\source\pauseMenu.cpp)
+                 g:\desktop\eli\bejeweled\source\resources.h(4) : see previous definition of 'MAX_GEM_TYPES'
+         resources.cpp
+         scene.cpp
+         timer.cpp
+       Link:
+         C:\Marmalade\7.7\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_Bejeweled_vc12_x86\Bejeweled.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.7/modules/iw2d/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/iwgx/atitools /LIBPATH:c:/marmalade/7.7/modules/iwgx/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/iwgl/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/third_party/libjpeg/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/third_party/zlib/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/third_party/libpng/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/iwgeom/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/iwresmanager/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/iwgxfont/lib/x86 /LIBPATH:c:/marmalade/7.7/modules/third_party/tiniconv/lib/x86 /LIBPATH:c:/marmalade/7.7/s3e/lib/x86 vc6_compat.lib iw2d_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib iwgeom_d.lib iwresmanager_d.lib iwgxfont_d.lib tiniconv_d.lib s3e_cpp_d.lib s3e_vc12_d.lib s3e_api_iwgl.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"Debug_Bejeweled_vc12_x86\Bejeweled.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_Bejeweled_vc12_x86\Bejeweled.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /DLL Debug_Bejeweled_vc12_x86\Iw2DSceneGraph.obj
+         Debug_Bejeweled_vc12_x86\Iw2DSceneGraphCore.obj
+         Debug_Bejeweled_vc12_x86\IwResHandlerWAV.obj
+         Debug_Bejeweled_vc12_x86\IwSoundADPCM.obj
+         Debug_Bejeweled_vc12_x86\IwSoundData.obj
+         Debug_Bejeweled_vc12_x86\IwSoundGroup.obj
+         Debug_Bejeweled_vc12_x86\IwSoundInst.obj
+         Debug_Bejeweled_vc12_x86\IwSoundManager.obj
+         Debug_Bejeweled_vc12_x86\IwSoundPCM.obj
+         Debug_Bejeweled_vc12_x86\IwSoundParams.obj
+         Debug_Bejeweled_vc12_x86\IwSoundSpec.obj
+         Debug_Bejeweled_vc12_x86\IwSoundWAV.obj
+         Debug_Bejeweled_vc12_x86\IwTween.obj
+         Debug_Bejeweled_vc12_x86\PVRTexTool_interface.obj
+         Debug_Bejeweled_vc12_x86\audio.obj
+         Debug_Bejeweled_vc12_x86\explosion.obj
+         Debug_Bejeweled_vc12_x86\game.obj
+         Debug_Bejeweled_vc12_x86\gem.obj
+         Debug_Bejeweled_vc12_x86\grid.obj
+         Debug_Bejeweled_vc12_x86\input.obj
+         Debug_Bejeweled_vc12_x86\main.obj
+         Debug_Bejeweled_vc12_x86\mainMenu.obj
+         Debug_Bejeweled_vc12_x86\pauseMenu.obj
+         Debug_Bejeweled_vc12_x86\resources.obj
+         Debug_Bejeweled_vc12_x86\scene.obj
+         Debug_Bejeweled_vc12_x86\timer.obj
+            Creating library Debug_Bejeweled_vc12_x86\Bejeweled.lib and object Debug_Bejeweled_vc12_x86\Bejeweled.exp
+         Bejeweled_vc12.vcxproj -> g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Debug_Bejeweled_vc12_x86\Bejeweled.s86
+       PostBuildEvent:
+         echo C:\Marmalade\7.7\s3e\python\python.exe .\process_map.py "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Debug_Bejeweled_vc12_x86\Bejeweled.s86"
+         chdir /d "c:\marmalade\7.7\s3e\tools"
+         C:\Marmalade\7.7\s3e\python\python.exe .\process_map.py "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Debug_Bejeweled_vc12_x86\Bejeweled.s86"
+         echo "s3e_plink" -l "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Debug_Bejeweled_vc12_x86\Bejeweled.s86" 
+         chdir /d "c:\marmalade\7.7\s3e\bin"
+         "s3e_plink" -l "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Debug_Bejeweled_vc12_x86\Bejeweled.s86" 
+         
+         :VCEnd
+         C:\Marmalade\7.7\s3e\python\python.exe .\process_map.py "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Debug_Bejeweled_vc12_x86\Bejeweled.s86"
+         "s3e_plink" -l "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Debug_Bejeweled_vc12_x86\Bejeweled.s86" 
+     1>Done Building Project "g:\Desktop\eli\Bejeweled\build_bejeweled_vc12\Bejeweled_vc12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.01

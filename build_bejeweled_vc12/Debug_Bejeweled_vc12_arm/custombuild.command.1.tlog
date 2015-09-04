@@ -1,0 +1,2 @@
+^G:\DESKTOP\P2\BEJEWELED\BEJEWELED.MKB
+"C:\Marmalade\7.7\s3e\python\python.exe" "C:\Marmalade\7.7\s3e\makefile_builder\mkb.py" "--buildenv=VC12" "g:/Desktop/p2/Bejeweled/Bejeweled.mkb" "--default-buildenv=vc12x" --msvc-project
